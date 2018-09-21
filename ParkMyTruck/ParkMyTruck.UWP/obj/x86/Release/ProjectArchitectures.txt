@@ -1,0 +1,1 @@
+C:\Users\r084586\source\repos\ParkMyTruck\ParkMyTruck\ParkMyTruck.UWP\ParkMyTruck.UWP.csproj;x86

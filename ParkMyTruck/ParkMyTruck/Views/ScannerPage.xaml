@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkMyTruck.Views.ScannerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Button Text="Scanner véhicule"  
+                x:Name="btnScan"  
+                Clicked="btnScan_Clicked"/>
+            <Entry x:Name="txtBarcode"  
+               Placeholder=""/>
+            <Button Text="Scanner module GPS"  
+                x:Name="btnScan2"  
+                Clicked="btnScan2_Clicked"/>
+            <Entry x:Name="txtBarcode2"  
+               Placeholder=""/>
+            <Button Text="Appairage"  
+                x:Name="btnAppairage"  
+                Clicked="btnAppairage_Clicked"/>
+            <Entry x:Name="txtAppairage"  
+               Placeholder="" TextColor="Green" IsEnabled="False"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
